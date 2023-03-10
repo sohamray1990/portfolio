@@ -512,19 +512,27 @@ img {
 }
 
 .skills__html {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__css {
-  width: 90%;
+  width: 70%;
 }
 
 .skills__js {
-  width: 90%;
+  width: 80%;
+}
+
+.skills__ts {
+  width: 70%;
 }
 
 .skills__react {
-  width: 90%;
+  width: 80%;
+}
+
+.skills__angular {
+  width: 60%;
 }
 
 .skills__node {
@@ -852,6 +860,8 @@ img {
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
+  /* TODO: Remove justify content when form is added */
+  justify-content: center;
 }
 
 .contact__information {
@@ -1072,7 +1082,7 @@ img {
   .about__container,
   .portfolio__content,
   .project__container,
-  .contact__container,
+  /* .contact__container, TODO - Add this back when form is added */
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1163,9 +1173,6 @@ img {
   .about__info {
     justify-content: space-between;
   }
-  .about__buttons {
-    justify-content: initial;
-  }
 
   .qualification__tabs {
     justify-content: center;
@@ -1178,7 +1185,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 280px);
     justify-content: center;
   }
   .services__icon {
@@ -1249,7 +1256,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 280px);
   }
 
   .portfolio__content {
